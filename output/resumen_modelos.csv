@@ -1,0 +1,9 @@
+modelo,estrategia,auc,accuracy,sensibilidad,especificidad,solape_pct
+1. atributos (logística),aleatorio,0.5865,0.5797,0.316,0.8021,99.42
+1. atributos (logística),por_producto,0.5207,0.5442,0.5295,0.5036,0.0
+2. atributos (random forest),aleatorio,0.5834,0.5729,0.3284,0.7792,99.42
+2. atributos (random forest),por_producto,0.5413,0.5424,0.5662,0.4873,0.0
+3. texto (TF-IDF),aleatorio,0.7761,0.7051,0.6741,0.7312,99.42
+3. texto (TF-IDF),por_producto,0.793,0.724,0.6961,0.7382,0.0
+4. sólo longitud (control),aleatorio,0.6485,0.6305,0.3704,0.85,99.42
+4. sólo longitud (control),por_producto,0.6623,0.635,0.3982,0.8503,0.0
