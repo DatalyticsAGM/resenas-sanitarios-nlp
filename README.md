@@ -135,6 +135,20 @@ no exprimir un modelo.
 
 ## Reproducir
 
+> ### ⚠️ Este repositorio no se puede ejecutar sin los datos, y los datos no son públicos
+>
+> El dataset es propiedad de Leroy Merlin. Si clonas este repositorio, puedes
+> leer el código y revisar los resultados —que están completos en
+> [`output/`](output/), métrica a métrica y semilla a semilla— pero no
+> reproducir la ejecución.
+>
+> Es una limitación real y se dice aquí en vez de esconderla en una nota al
+> pie. El proyecto hermano en R sí trae un
+> [generador sintético](../TFG_LEROY_MERLIN_CORREGIDO) para poder ejecutarse
+> sin datos reales; aquí no se ha hecho equivalente porque habría que inventar
+> el texto de las reseñas, y entonces el resultado del modelo de texto sería un
+> artefacto de las plantillas inventadas en vez de un hallazgo.
+
 ```bash
 pip install -r requirements.txt
 python scripts/01_eda.py
